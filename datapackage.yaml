@@ -1,0 +1,339 @@
+name: servidores-mg
+title: servidores do poder executivo do estado de minas gerais
+description: teste publicação base atricon
+profile: tabular-data-package
+owner_org: controladoria-geral-do-estado-cge
+frequência de atualização: mensal
+contributors:
+  - title: Diretoria Central de Transparência Ativa
+    role: maintainer
+    email: transparencia@cge.mg.gov.br
+licenses:
+  - name: CC-BY-4.0
+    title: Creative Commons Attribution 4.0
+    path: https://creativecommons.org/licenses/by/4.0/
+resources:
+  - name: dados_serv_202007
+    title: Dados servidores julho 2020 
+    path: data/dados_serv_202007.csv.zip
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    compression: zip
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+  - name: dados_serv_202008
+    title: Dados servidores agosto 2020 
+    path: data/dados_serv_202008.csv.zip
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    compression: zip
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+  - name: dados_serv_202009
+    title: Dados servidores setembro 2020 
+    path: data/dados_serv_202009.csv.zip
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    compression: zip
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+  - name: dados_serv_202010
+    title: Dados servidores outubro 2020 
+    path: data/dados_serv_202010.csv.zip
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    compression: zip
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+  - name: dados_serv_202011
+    title: Dados servidores novembro 2020 
+    path: data/dados_serv_202011.csv.zip
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    compression: zip
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+  - name: dados_serv_202012
+    title: Dados servidores dezembro 2020 
+    path: data/dados_serv_202012.csv.zip
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    compression: zip
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+  - name: dados_serv_202101
+    title: Dados servidores janeiro 2021 
+    path: data/dados_serv_202101.csv.zip
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    compression: zip
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+  - name: dados_serv_202102
+    title: Dados servidores fevereiro 2021 
+    path: data/dados_serv_202102.csv.zip
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    compression: zip
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+  - name: dados_serv_202103
+    title: Dados servidores março 2021 
+    path: data/dados_serv_202103.csv.zip
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    compression: zip
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+  - name: dados_serv_202104
+    title: Dados servidores abril 2021 
+    path: data/dados_serv_202104.csv.zip
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    compression: zip
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+  - name: dados_serv_202105
+    title: Dados servidores maio 2021 
+    path: data/dados_serv_202105.csv.zip
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    compression: zip
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+  - name: dados_serv_202106
+    title: Dados servidores junho 2021 
+    path: data/dados_serv_202106.csv.zip
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    compression: zip
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+  - name: dados_serv_202107
+    title: Dados servidores julho 2021 
+    path: data/dados_serv_202107.csv.zip
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    compression: zip
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+  - name: dados_serv_202108
+    title: Dados servidores agosto 2021 
+    path: data/dados_serv_202108.csv.zip
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    compression: zip
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+  - name: dados_serv_202109
+    title: Dados servidores setembro 2021 
+    path: data/dados_serv_202109.csv.zip
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    compression: zip
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+  - name: dados_serv_202110
+    title: Dados servidores outubro 2021 
+    path: data/dados_serv_202110.csv.zip
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    compression: zip
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+  - name: dados_serv_202111
+    title: Dados servidores novembro 2021 
+    path: data/dados_serv_202111.csv.zip
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    compression: zip
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+  - name: dados_serv_202112
+    title: Dados servidores dezembro 2021 
+    path: data/dados_serv_202112.csv.zip
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    compression: zip
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+  - name: dados_serv_202201
+    title: Dados servidores janeiro 2022 
+    path: data/dados_serv_202201.csv.zip
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    compression: zip
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+  - name: dados_serv_202202
+    title: Dados servidores fevereiro 2022 
+    path: data/dados_serv_202202.csv.zip
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    compression: zip
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+  - name: dados_serv_202203
+    title: Dados servidores março 2022 
+    path: data/dados_serv_202203.csv.zip
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    compression: zip
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+  - name: dados_serv_202204
+    title: Dados servidores abril 2022 
+    path: data/dados_serv_202204.csv.zip
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    compression: zip
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+  - name: dados_serv_202205
+    title: Dados servidores maio 2022 
+    path: data/dados_serv_202205.csv.zip
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    compression: zip
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+  - name: dados_serv_202206
+    title: Dados servidores junho 2022 
+    path: data/dados_serv_202206.csv.zip
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    compression: zip
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+  - name: dados_serv_202207
+    title: Dados servidores julho 2022 
+    path: data/dados_serv_202207.csv.zip
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    compression: zip
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+  - name: dados_serv_202208
+    title: Dados servidores agosto 2022 
+    path: data/dados_serv_202208.csv.zip
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    compression: zip
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+  - name: dados_serv_202209
+    title: Dados servidores setembro 2022 
+    path: data/dados_serv_202209.csv.zip
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    compression: zip
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+  - name: dados_serv_202210
+    title: Dados servidores outubro 2022 
+    path: data/dados_serv_202210.csv.zip
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    compression: zip
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+  - name: dados_serv_202211
+    title: Dados servidores novembro 2022 
+    path: data/dados_serv_202211.csv.zip
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    compression: zip
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+  - name: dados_serv_202212
+    title: Dados servidores dezembro 2022 
+    path: data/dados_serv_202212.csv.zip
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    compression: zip
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+  - name: dados_serv_202301
+    title: Dados servidores janeiro 2023 
+    path: data/dados_serv_202301.csv.zip
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    compression: zip
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+  - name: dados_serv_202202
+    title: Dados servidores fevereiro 2022 
+    path: data/dados_serv_202202.csv.zip
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    compression: zip
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+  - name: dados_serv_202303
+    title: Dados servidores março 2023 
+    path: data/dados_serv_202303.csv.zip
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    compression: zip
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+  - name: dados_serv_202304
+    title: Dados servidores abril 2023 
+    path: data/dados_serv_202304.csv.zip
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    compression: zip
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+  - name: dados_serv_202305
+    title: Dados servidores maio 2023 
+    path: data/dados_serv_202305.csv.zip
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    compression: zip
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+  - name: dados_serv_202306
+    title: Dados servidores junho 2023 
+    path: data/dados_serv_202306.csv.zip
+    profile: tabular-data-resource
+    schema: schemas/schema_v1.yaml
+    compression: zip
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5

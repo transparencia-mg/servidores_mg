@@ -1,0 +1,51 @@
+fields:
+  - name: ano_mes
+    type: integer
+  - name: masp
+    type: integer
+  - name: adm
+    type: integer
+  - name: nome
+    type: string
+  - name: siglaefetivo
+    type: string
+  - name: nmefetivo
+    type: string
+  - name: cdcomi
+    type: any
+  - name: desccomi
+    type: any
+  - name: data_inicio_comi
+    type: any
+  - name: data_fim_comi
+    type: any
+  - name: cd_funcao_gratif_gte
+    type: any
+  - name: desc_funcao_gratif_gte
+    type: any
+  - name: data_inicio_funcao_gratif_gte
+    type: any
+  - name: data_fim_funcao_gratif_gte
+    type: any
+  - name: carga_horaria
+    type: integer
+  - name: cd_instituicao_dotacao
+    type: integer
+  - name: sigla_instituicao_dotacao
+    type: string
+  - name: desc_instituicao_dotacao
+    type: string
+  - name: cd_instituicao_lotacao
+    type: integer
+  - name: sigla_instituicao_lotacao
+    type: string
+  - name: desc_instituicao_lotacao
+    type: string
+  - name: descsitserv
+    type: string
+  - name: data_inicio
+    type: string
+  - name: data_aposentadoria
+    type: string
+  - name: data_desligamento
+    type: any
