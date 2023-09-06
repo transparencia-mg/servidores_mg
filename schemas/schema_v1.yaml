@@ -15,17 +15,9 @@ fields:
     type: any
   - name: desccomi
     type: any
-  - name: data_inicio_comi
-    type: any
-  - name: data_fim_comi
-    type: any
   - name: cd_funcao_gratif_gte
     type: any
   - name: desc_funcao_gratif_gte
-    type: any
-  - name: data_inicio_funcao_gratif_gte
-    type: any
-  - name: data_fim_funcao_gratif_gte
     type: any
   - name: carga_horaria
     type: integer
@@ -43,9 +35,11 @@ fields:
     type: string
   - name: descsitserv
     type: string
-  - name: data_inicio
-    type: string
-  - name: data_aposentadoria
-    type: string
-  - name: data_desligamento
+  - name: id_data_inicio
+    type: integer
+  - name: id_data_aposentadoria
+    type: number
+  - name: id_data_desligamento
     type: any
+scheme: file
+
