@@ -5,8 +5,8 @@ repositório de preparação (documentação e simulação de publicaçaõ e atu
 ## testes 
 
 Conjuntos privados criados: 
-	- [CGE]](https://homologa.cge.mg.gov.br/organization/controladoria-geral-do-estado-cge)
-	- [SEPLAG] (https://homologa.cge.mg.gov.br/organization/secretaria-de-estado-de-planejamento-e-gestao-seplag)
+	- [CGE](https://homologa.cge.mg.gov.br/organization/controladoria-geral-do-estado-cge)
+	- [SEPLAG](https://homologa.cge.mg.gov.br/organization/secretaria-de-estado-de-planejamento-e-gestao-seplag)
 	
 [Questões para discussão](https://github.com/transparencia-mg/servidores/issues)
 
