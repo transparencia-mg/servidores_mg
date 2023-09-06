@@ -112,6 +112,46 @@
             "type": "any"
           }
         ],
+        "missginValues": [
+          " ",
+          "-",
+          "0"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "id_data_inicio"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_aposentadoria"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_desligamento"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          }
+        ],
         "scheme": "file"
       },
       "dialect": {
@@ -213,6 +253,46 @@
           {
             "name": "id_data_desligamento",
             "type": "any"
+          }
+        ],
+        "missginValues": [
+          " ",
+          "-",
+          "0"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "id_data_inicio"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_aposentadoria"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_desligamento"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
           }
         ],
         "scheme": "file"
@@ -318,6 +398,46 @@
             "type": "any"
           }
         ],
+        "missginValues": [
+          " ",
+          "-",
+          "0"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "id_data_inicio"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_aposentadoria"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_desligamento"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          }
+        ],
         "scheme": "file"
       },
       "dialect": {
@@ -419,6 +539,46 @@
           {
             "name": "id_data_desligamento",
             "type": "any"
+          }
+        ],
+        "missginValues": [
+          " ",
+          "-",
+          "0"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "id_data_inicio"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_aposentadoria"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_desligamento"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
           }
         ],
         "scheme": "file"
@@ -524,6 +684,46 @@
             "type": "any"
           }
         ],
+        "missginValues": [
+          " ",
+          "-",
+          "0"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "id_data_inicio"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_aposentadoria"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_desligamento"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          }
+        ],
         "scheme": "file"
       },
       "dialect": {
@@ -625,6 +825,46 @@
           {
             "name": "id_data_desligamento",
             "type": "any"
+          }
+        ],
+        "missginValues": [
+          " ",
+          "-",
+          "0"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "id_data_inicio"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_aposentadoria"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_desligamento"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
           }
         ],
         "scheme": "file"
@@ -730,6 +970,46 @@
             "type": "any"
           }
         ],
+        "missginValues": [
+          " ",
+          "-",
+          "0"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "id_data_inicio"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_aposentadoria"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_desligamento"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          }
+        ],
         "scheme": "file"
       },
       "dialect": {
@@ -831,6 +1111,46 @@
           {
             "name": "id_data_desligamento",
             "type": "any"
+          }
+        ],
+        "missginValues": [
+          " ",
+          "-",
+          "0"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "id_data_inicio"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_aposentadoria"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_desligamento"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
           }
         ],
         "scheme": "file"
@@ -936,6 +1256,46 @@
             "type": "any"
           }
         ],
+        "missginValues": [
+          " ",
+          "-",
+          "0"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "id_data_inicio"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_aposentadoria"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_desligamento"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          }
+        ],
         "scheme": "file"
       },
       "dialect": {
@@ -1037,6 +1397,46 @@
           {
             "name": "id_data_desligamento",
             "type": "any"
+          }
+        ],
+        "missginValues": [
+          " ",
+          "-",
+          "0"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "id_data_inicio"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_aposentadoria"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_desligamento"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
           }
         ],
         "scheme": "file"
@@ -1142,6 +1542,46 @@
             "type": "any"
           }
         ],
+        "missginValues": [
+          " ",
+          "-",
+          "0"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "id_data_inicio"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_aposentadoria"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_desligamento"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          }
+        ],
         "scheme": "file"
       },
       "dialect": {
@@ -1243,6 +1683,46 @@
           {
             "name": "id_data_desligamento",
             "type": "any"
+          }
+        ],
+        "missginValues": [
+          " ",
+          "-",
+          "0"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "id_data_inicio"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_aposentadoria"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_desligamento"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
           }
         ],
         "scheme": "file"
@@ -1348,6 +1828,46 @@
             "type": "any"
           }
         ],
+        "missginValues": [
+          " ",
+          "-",
+          "0"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "id_data_inicio"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_aposentadoria"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_desligamento"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          }
+        ],
         "scheme": "file"
       },
       "dialect": {
@@ -1449,6 +1969,46 @@
           {
             "name": "id_data_desligamento",
             "type": "any"
+          }
+        ],
+        "missginValues": [
+          " ",
+          "-",
+          "0"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "id_data_inicio"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_aposentadoria"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_desligamento"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
           }
         ],
         "scheme": "file"
@@ -1554,6 +2114,46 @@
             "type": "any"
           }
         ],
+        "missginValues": [
+          " ",
+          "-",
+          "0"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "id_data_inicio"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_aposentadoria"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_desligamento"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          }
+        ],
         "scheme": "file"
       },
       "dialect": {
@@ -1655,6 +2255,46 @@
           {
             "name": "id_data_desligamento",
             "type": "any"
+          }
+        ],
+        "missginValues": [
+          " ",
+          "-",
+          "0"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "id_data_inicio"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_aposentadoria"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_desligamento"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
           }
         ],
         "scheme": "file"
@@ -1760,6 +2400,46 @@
             "type": "any"
           }
         ],
+        "missginValues": [
+          " ",
+          "-",
+          "0"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "id_data_inicio"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_aposentadoria"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_desligamento"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          }
+        ],
         "scheme": "file"
       },
       "dialect": {
@@ -1861,6 +2541,46 @@
           {
             "name": "id_data_desligamento",
             "type": "any"
+          }
+        ],
+        "missginValues": [
+          " ",
+          "-",
+          "0"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "id_data_inicio"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_aposentadoria"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_desligamento"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
           }
         ],
         "scheme": "file"
@@ -1966,6 +2686,46 @@
             "type": "any"
           }
         ],
+        "missginValues": [
+          " ",
+          "-",
+          "0"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "id_data_inicio"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_aposentadoria"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_desligamento"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          }
+        ],
         "scheme": "file"
       },
       "dialect": {
@@ -2067,6 +2827,46 @@
           {
             "name": "id_data_desligamento",
             "type": "any"
+          }
+        ],
+        "missginValues": [
+          " ",
+          "-",
+          "0"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "id_data_inicio"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_aposentadoria"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_desligamento"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
           }
         ],
         "scheme": "file"
@@ -2172,6 +2972,46 @@
             "type": "any"
           }
         ],
+        "missginValues": [
+          " ",
+          "-",
+          "0"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "id_data_inicio"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_aposentadoria"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_desligamento"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          }
+        ],
         "scheme": "file"
       },
       "dialect": {
@@ -2273,6 +3113,46 @@
           {
             "name": "id_data_desligamento",
             "type": "any"
+          }
+        ],
+        "missginValues": [
+          " ",
+          "-",
+          "0"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "id_data_inicio"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_aposentadoria"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_desligamento"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
           }
         ],
         "scheme": "file"
@@ -2378,6 +3258,46 @@
             "type": "any"
           }
         ],
+        "missginValues": [
+          " ",
+          "-",
+          "0"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "id_data_inicio"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_aposentadoria"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_desligamento"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          }
+        ],
         "scheme": "file"
       },
       "dialect": {
@@ -2479,6 +3399,46 @@
           {
             "name": "id_data_desligamento",
             "type": "any"
+          }
+        ],
+        "missginValues": [
+          " ",
+          "-",
+          "0"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "id_data_inicio"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_aposentadoria"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_desligamento"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
           }
         ],
         "scheme": "file"
@@ -2584,6 +3544,46 @@
             "type": "any"
           }
         ],
+        "missginValues": [
+          " ",
+          "-",
+          "0"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "id_data_inicio"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_aposentadoria"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_desligamento"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          }
+        ],
         "scheme": "file"
       },
       "dialect": {
@@ -2685,6 +3685,46 @@
           {
             "name": "id_data_desligamento",
             "type": "any"
+          }
+        ],
+        "missginValues": [
+          " ",
+          "-",
+          "0"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "id_data_inicio"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_aposentadoria"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_desligamento"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
           }
         ],
         "scheme": "file"
@@ -2790,6 +3830,46 @@
             "type": "any"
           }
         ],
+        "missginValues": [
+          " ",
+          "-",
+          "0"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "id_data_inicio"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_aposentadoria"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_desligamento"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          }
+        ],
         "scheme": "file"
       },
       "dialect": {
@@ -2891,6 +3971,46 @@
           {
             "name": "id_data_desligamento",
             "type": "any"
+          }
+        ],
+        "missginValues": [
+          " ",
+          "-",
+          "0"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "id_data_inicio"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_aposentadoria"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_desligamento"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
           }
         ],
         "scheme": "file"
@@ -2996,6 +4116,46 @@
             "type": "any"
           }
         ],
+        "missginValues": [
+          " ",
+          "-",
+          "0"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "id_data_inicio"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_aposentadoria"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_desligamento"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          }
+        ],
         "scheme": "file"
       },
       "dialect": {
@@ -3097,6 +4257,46 @@
           {
             "name": "id_data_desligamento",
             "type": "any"
+          }
+        ],
+        "missginValues": [
+          " ",
+          "-",
+          "0"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "id_data_inicio"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_aposentadoria"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_desligamento"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
           }
         ],
         "scheme": "file"
@@ -3202,6 +4402,46 @@
             "type": "any"
           }
         ],
+        "missginValues": [
+          " ",
+          "-",
+          "0"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "id_data_inicio"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_aposentadoria"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_desligamento"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          }
+        ],
         "scheme": "file"
       },
       "dialect": {
@@ -3303,6 +4543,46 @@
           {
             "name": "id_data_desligamento",
             "type": "any"
+          }
+        ],
+        "missginValues": [
+          " ",
+          "-",
+          "0"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "id_data_inicio"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_aposentadoria"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_desligamento"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
           }
         ],
         "scheme": "file"
@@ -3408,6 +4688,46 @@
             "type": "any"
           }
         ],
+        "missginValues": [
+          " ",
+          "-",
+          "0"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "id_data_inicio"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_aposentadoria"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_desligamento"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          }
+        ],
         "scheme": "file"
       },
       "dialect": {
@@ -3509,6 +4829,46 @@
           {
             "name": "id_data_desligamento",
             "type": "any"
+          }
+        ],
+        "missginValues": [
+          " ",
+          "-",
+          "0"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "id_data_inicio"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_aposentadoria"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_desligamento"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
           }
         ],
         "scheme": "file"
@@ -3614,6 +4974,46 @@
             "type": "any"
           }
         ],
+        "missginValues": [
+          " ",
+          "-",
+          "0"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "id_data_inicio"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_aposentadoria"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_desligamento"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          }
+        ],
         "scheme": "file"
       },
       "dialect": {
@@ -3715,6 +5115,46 @@
           {
             "name": "id_data_desligamento",
             "type": "any"
+          }
+        ],
+        "missginValues": [
+          " ",
+          "-",
+          "0"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "id_data_inicio"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_aposentadoria"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
+          },
+          {
+            "fields": [
+              "id_data_desligamento"
+            ],
+            "reference": {
+              "fields": [
+                "id_tempo"
+              ],
+              "resource": "dm_tempo_diario"
+            }
           }
         ],
         "scheme": "file"
