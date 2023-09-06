@@ -41,5 +41,16 @@ fields:
     type: number
   - name: id_data_desligamento
     type: any
+  missginValues:
+  - ' '
+  - '-'
+  - '0'
+  foreignKeys:
+  - fields:
+      - id_tempo
+    reference:
+      fields:
+        - id_tempo
+      resource: dm_tempo_diario
 scheme: file
 
