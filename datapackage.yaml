@@ -374,3 +374,13 @@ resources:
     encoding: utf-8-sig
     format: csv
     hashing: md5
+  - name: dm_tempo_diario
+    title: Calendário - Dias 
+    path: data/dm_tempo_diario.csv.gz
+    profile: tabular-data-resource
+    schema: schemas/dm_tempo_diario.yaml
+    dialect: ;
+    compression: gz
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5

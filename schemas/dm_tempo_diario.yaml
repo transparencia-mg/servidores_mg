@@ -1,0 +1,61 @@
+fields:
+  - name: id_tempo
+    title: Tempo - Chave
+    type: integer
+    format: default
+    bareNumber: true
+    description: |
+      - > 
+        Refere-se a chave primária (Primary keys) o qual pode ser usada como índice de referência
+        para criar relacionamentos com as demais tabelas do banco de dados.
+        Por meio dessa chave é possível identificar a data completa a qual o dado se refere.
+
+        Nota: 
+        No site dados.mg.gov.br a tabela dm_tempo_diario pode ser encontrada no recurso Calendários - Dias 
+        de cada conjunto.
+
+    constraints:
+      required: true
+      unique: false
+  - name: data_iso
+    title: Data ISO
+    type: date
+    format: '%Y%m%d'
+    constraints:
+      required: true
+  - name: dia
+    title: Dia
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+      minimum: 1
+      maximum: 31
+  - name: mes
+    title: Mês
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+      minimum: 1
+      maximum: 12
+  - name: ano
+    title: Ano
+    type: year
+    format: default
+    constraints:
+      required: true
+      minimum: 1900
+      maximum: 2050
+  - name: data_formatada
+    title: Data Formatada
+    type: date
+    format: default
+    constraints:
+      required: true
+missingValues:
+  - ''
+primaryKey:
+  - id_tempo
