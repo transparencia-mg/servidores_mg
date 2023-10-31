@@ -1,0 +1,315 @@
+fields:
+  - name: ano_mes
+    title: Ano/mês de referência da Folha de Pagamentos
+    type: integer
+    format: default
+    description: O ano/mês apresenta a competência do pagamento, o valor sempre é pago no mês seguinte.
+    constraints:
+      required: true
+      minimum: 202007
+
+  - name: masp
+    title: Número de registro dos funcionários públicos
+    type: integer
+    format: default
+    description: |
+        - >
+          O masp é o número que identifica o servidor no Sistema de Administração de Pessoal - SISAP -
+          do Estado de Minas Gerais. O último dígito representa o número verificador da matrícula do servidor.
+    constraints:
+      required: false
+
+  - name: adm
+    title: Número da admissão dos funcionários públicos
+    type: integer
+    format: default
+    description: |
+        - > 
+          A admissão SISAP possibilita identificar diferentes ingressos de um mesmo servidor,
+          viabilizado pelas regras de acúmulo lícito de cargos públicos
+    constraints:
+      required: false
+
+  - name: nome
+    title: Nome dos funcionários públicos
+    type: character
+    format: default
+    description: |
+        - > 
+          Nome da pessoa segundo seu registro civil. 
+          Divergências são possíveis em virtude de alterações de registro posteriores ao cadastro, 
+          alterações estas que não são averbadas automaticamente.
+    constraints:
+      required: false
+
+  - name: siglaefetivo
+    title: Sigla do cargo público efetivo
+    type: character
+    format: default
+    description: Sigla de identificação do cargo público
+    constraints:
+      required: false
+    missingValues: 
+    - 'Sigla_nao_enquadrada'
+
+  - name: nmefetivo
+    title: Nome do cargo público efetivo
+    type: character
+    format: default
+    constraints:
+      required: false
+    missingValues:
+    - 'NAO INFORMADO'
+    - 'NAO SE APLICA'
+    - 'CODIGO INVALIDO'
+
+  - name: cdcomi
+    title: Código de identificação do cargo em comissão
+    type: character
+    format: default
+    constraints:
+      required: false   
+
+  - name: desccomi
+    title: Descrição do cargo em comissão
+    type: character
+    format: default
+    constraints:
+      required: false
+
+  - name: cd_funcao_gratif_gte
+    title: Código de identificação da Função Gratificada ou Gratificação Temporária Estratégica
+    type: character
+    format: default
+    constraints:
+      required: false
+
+  - name: desc_funcao_gratif_gte
+    title: Descrição da Função Gratificada ou Gratificação Temporária Estratégicaa
+    type: character
+    format: default
+    constraints:
+      required: false
+
+  - name: carga_horaria
+    title: Carga horária obrigatória a ser cumprida pelo funcionário público 
+    type: integer
+    format: default
+    description: |
+        - > 
+          A carga horária obrigatória varia de acordo com o cargo efetivo ocupado e 
+          pode ser alterada pelo tipo de exercício e cargos comissionados, funções gratificadas ou 
+          vagas específicas - de acordo com a legislação.
+    missingValues:
+      - '0'
+    constraints:
+      required: true
+      minimum: 0
+
+  - name: cd_instituicao_dotacao
+    title: Código da instituição de pagamento 
+    type: integer
+    format: default
+    description: |
+        - > 
+          A instituição de dotação é aquela em cujo orçamento está previsto o pagamento da vaga ocupada
+          em valor atribuído a dotação orçamentária específica. O código da instituição é o mesmo utilizado
+          na peça orçamentária com 4 dígitos.
+
+          Para alguns registros, é possível que haja ausência de dados em virtude de inconsistências na 
+          migração de dados do SISAP para o Armazém BO. 
+          Nessas situações, o campo estará preenchido com o valor 0.
+    missingValues:
+      - '0'
+    constraints:
+      required: false
+
+  - name: sigla_instituicao_dotacao
+    title: Sigla da instituição de pagamento 
+    type: character
+    format: default
+    description: |
+        - > 
+          A instituição de dotação é aquela em cujo orçamento está previsto o pagamento da vaga ocupada
+          em valor atribuído a dotação orçamentária específica. A sigla da instituição é aquela definida
+          na Lei de criação da mesma.
+
+          Para alguns registros, é possível que haja ausência de dados em virtude de inconsistências na 
+          migração de dados do SISAP para o Armazém BO. 
+    constraints:
+      required: false
+    missingValues:
+      - 'NAO INFORMADO'
+
+  - name: desc_instituicao_dotacao
+    title: Descrição da instituição de pagamento 
+    type: character
+    format: default
+    description: |
+        - > 
+          A instituição de dotação é aquela em cujo orçamento está previsto o pagamento da vaga ocupada
+          em valor atribuído a dotação orçamentária específica. 
+          A descrição da instituição é aquela definida na Lei de criação da mesma.
+
+          Para alguns registros, é possível que haja ausência de dados em virtude de inconsistências na 
+          migração de dados do SISAP para o Armazém BO. 
+    constraints:
+      required: false
+    missingValues:
+      - 'INSTITUICAO C/ CODIGO DE UNIDADE NAO INFORMADO'
+
+  - name: cd_instituicao_lotacao
+    title: Código da instituição de vínculo do cargo ocupado 
+    type: integer
+    format: default
+    description: |
+        - > 
+          A instituição de lotação é aquela em que foi alocada legalmente a vaga do cargo público na sua criação.
+          O código da instituição é o mesmo utilizado na peça orçamentária com 4 dígitos.
+
+          Para alguns registros, é possível que haja ausência de dados em virtude de inconsistências na 
+          migração de dados do SISAP para o Armazém BO. 
+          Nessas situações, o campo estará preenchido com o valor 0.
+    missingValues:
+      - '0'
+    constraints:
+      required: false
+
+  - name: sigla_instituicao_lotacao
+    title: Sigla da instituição de vínculo do cargo ocupado
+    type: character
+    format: default
+    description: |
+        - > 
+          A instituição de lotação é aquela em que foi alocada legalmente a vaga do cargo público na sua criação. 
+          A sigla da instituição é aquela definida na Lei de criação da mesma.
+
+          Para alguns registros, é possível que haja ausência de dados em virtude de inconsistências na 
+          migração de dados do SISAP para o Armazém BO. 
+    constraints:
+      required: false
+    missingValues:
+      - 'NAO INFORMADO'
+
+  - name: desc_instituicao_lotacao
+    title: Descrição da instituição de vínculo do cargo ocupado 
+    type: character
+    format: default
+    description: |
+        - > 
+          A instituição de lotação é aquela em que foi alocada legalmente a vaga do cargo público na sua criação. 
+          A descrição da instituição é aquela definida na Lei de criação da mesma.
+
+          Para alguns registros, é possível que haja ausência de dados em virtude de inconsistências na 
+          migração de dados do SISAP para o Armazém BO. 
+    constraints:
+      required: false
+    missingValues: 
+      - 'INSTITUICAO C/ CODIGO DE UNIDADE NAO INFORMADO'
+
+  - name: descsitserv
+    title: Descrição da situação de vínculo do servidor 
+    type: character
+    format: default
+    description: |
+        - > 
+          O servidor EFETIVO é aquele concursado ou que possua estabilidade legal no cargo público, 
+          sendo deste grupo a origem dos APOSENTADOS do Regime Próprio de Previdência (RPPS - Estadual). 
+          As demais situações apresentam as formas de contratação temporária, seja por condução a um cargo comissionado
+          em recrutamento amplo ou pela convocação/contratação administrativa temporária. 
+          É chamado convocado o antigo designado da educação em área finalística.
+    constraints:
+      required: true
+      enum:
+        - 'EFETIVO'
+        - 'APOSENTADO'
+        - 'RECRUTAMENTO AMPLO'
+        - 'CONVOCADO'
+        - 'CONTRATO TEMPORÁRIO'
+        
+  - name: id_data_inicio
+    title: Chave que identifica a data de início do funcionário público no Estado
+    type: integer
+    format: default
+    description: |
+        - > 
+
+        A data de início é aquela relativa á primeira vinculação (na admissão específica) do servidor. 
+        Para exercícios temporários uma nova recondução não altera este início geral que depende
+        da nova contratação administrativa temporária.
+
+        Índice de referência para criar relacionamentos com as demais tabelas do banco de dados.
+        Por meio dessa chave é possível identificar a data completa a qual o dado se refere.
+
+        Para alguns registros, é possível que haja ausência de dados em virtude de inconsistências na 
+        migração de dados do SISAP para o Armazém BO. Nessas situações, o campo estará preenchido com o valor 0.
+
+        Nota: 
+        No site dados.mg.gov.br a tabela dm_tempo_diario pode ser encontrada no recurso Calendários - Dias 
+        de cada conjunto.
+    missingValues:
+      - '0'
+    constraints:
+      required: true
+      unique: false
+
+  - name: id_data_aposentadoria
+    title: Chave que identifica a data de aposentadoria do funcionário público
+    type: integer
+    format: default
+    description: |
+        - > 
+        A data de aposentadoria é o marco do final do exercício ativo do servidor. 
+        Refere-se à data do direito à aposentadoria e não de sua publicação, 
+        esta última que pode ocorrer posteriomente. 
+
+        Índice de referência para criar relacionamentos com as demais tabelas do banco de dados.
+        Por meio dessa chave é possível identificar a data completa a qual o dado se refere.
+
+        Para alguns registros, é possível que haja ausência de dados em virtude de inconsistências na 
+        migração de dados do SISAP para o Armazém BO. Nessas situações, o campo estará preenchido com o valor 0.
+
+        Nota: 
+        No site dados.mg.gov.br a tabela dm_tempo_diario pode ser encontrada no recurso Calendários - Dias 
+        de cada conjunto.
+    missingValues:
+      - '0'
+    constraints:
+      required: true
+      unique: false
+
+  - name: id_data_desligamento
+    title: Chave que identifica a data de iData de desligamento do funcionário público
+    type: integer
+    format: default
+    description: |
+        - > 
+        A data de desligamento marca o fim do último vínculo do servidor na admissão tratada.
+
+        Índice de referência para criar relacionamentos com as demais tabelas do banco de dados.
+        Por meio dessa chave é possível identificar a data completa a qual o dado se refere.
+
+        Para alguns registros, é possível que haja ausência de dados em virtude de inconsistências na 
+        migração de dados do SISAP para o Armazém BO. Nessas situações, o campo estará preenchido com o valor 0.
+
+        Nota: 
+        No site dados.mg.gov.br a tabela dm_tempo_diario pode ser encontrada no recurso Calendários - Dias 
+        de cada conjunto.
+    constraints:
+      required: true
+      unique: false
+
+
+missingValues:
+  - 'NAO INFORMADO'
+
+primaryKey:
+  - ano_mes
+  - masp
+  - adm
+
+
+foreignKey: 
+  - id_data_inicio
+  - id_data_aposentadoria
+  - id_data_desligamento
