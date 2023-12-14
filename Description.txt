@@ -1,0 +1,5 @@
+O repositório de dados de servidores contempla um descritivo de informações funcionais e de exercício dos funcionários públicos do poder executivo do Governo do
+Estado de Minas Gerais - exceto Polícia Militar de Minas Gerais (PMMG), Corpo de Bombeiros Militar de Minas Geiras (CBMMG) e Empresas Públicas.
+
+As informações presentes nesse dataset são provenientes do Sistema de Administração de Pessoal (SISAP) e estão estruturadas de acordo com a Folha de Pagamentos do Estado,
+que possui uma dinâmica mensal de armazenamento das informações.
